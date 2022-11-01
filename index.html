@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Tapsiriq 3</title>
 </head>
@@ -14,15 +15,40 @@
     <div id="main" onclick="Changebg()" ></div>
     <div id="chatbox">
        <div id="main1">
-        <button type="button" onclick="Changebg()" id="demo">Rengini deyis</button> 
+        <input type="text"  id="width" placeholder="eni daxil edin...">
+
+        <select name="" id="olchu">
+            <option value="px">px</option>
+            <option value="em">em</option>
+            <option value="rem">rem</option>
+            <option value="%">%</option>
+        </select>
+
+        <button type="button" onclick="ChngeMsr()" id="demo1">OK</button>
+        <button type="button" onclick="Changebg()" id="demo">Animasiya</button> 
         <button type="button" onclick="StAni()" id="demo3">StopAni</button> 
-        <button type="button" onclick="ChngeMsr()" id="demo1">Olchunu deyis</button>
+        
         <button type="button" onclick="Defaultwidth()" id="demo2">Default</button>
    
-    </div>
-    </div>
-    <div id="chat" onclick="activeChat()"></div>
 
+
+        <label class="switch" id="darkmode" >
+            <input type="checkbox" onclick="GeceGunduz()"/>
+            <span></span>
+        </label>
+    </div>
+    </div>
+
+    <br><br>
+    
+    
+    <div id="chat" onclick="activeChat()" ondblclick="deactivateChat()">
+        <i class="fa fa-bars fa-2x" aria-hidden="true"></i>
+    </div>
+    
+
+    
+    
     
 
 
