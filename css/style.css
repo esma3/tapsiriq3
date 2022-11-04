@@ -22,19 +22,9 @@
     position:fixed;
     right:-400px;
     transition: 1s;  
-    border-radius: 40%;
-}
-#main1{
-    margin:0 auto;
-   padding:0px;
-    width:400px;
-    height:800px;
-    background:lightskyblue;
-    /* z-index: 11; */
-    float:left;
-    position:relative;
     border-radius: 30px;
 }
+
 
 #main{
     width:100px;
@@ -63,6 +53,55 @@
     left:280px;
 
 }
+
+#demo8{
+    position:absolute;
+    top:110px;
+    left:20px;
+
+}
+#height{
+    position:absolute;
+    top:150px;
+    left:20px;
+
+}
+#olchu2{
+    position:absolute;
+    top:150px;
+    left:200px;
+}
+#colorInputText{
+    position:absolute;
+    top:250px;
+    left:20px;
+
+}
+#colorInputColor{
+    position:absolute;
+    top:250px;
+    left:200px;
+}
+#colorButton{
+    position:absolute;
+    top:250px;
+    left:255px;
+}
+#demo7{
+    position:absolute;
+    top:200px;
+    left:20px;
+}
+
+
+
+
+#demo5{
+    position:absolute;
+    top:150px;
+    left:280px;
+
+}
 #demo2{
     position:absolute;
     top:20px;
@@ -74,6 +113,12 @@
     top:20px;
     left:160px;
 
+}
+
+#demo9{
+    position:absolute;
+    top:30px;
+    left:20px;
 }
 #width{
     position:absolute;
@@ -91,34 +136,34 @@
 
 @keyframes go{
     0%{
-        top:0px;
+        top:10px;
         left:30px;
-        transform: rotateX(60deg);
+        /* transform: rotateX(60deg); */
         
     }
     25%{
-        top:0px;
+        top:10px;
         left:180px;
-        transform: rotateX(120deg);
-        background:rgb(16, 136, 155);
+        /* transform: rotateX(120deg); */
+        /* background:rgb(16, 136, 155); */
     }
     50%{
         top:200px;
         left:180px;
-        transform: rotateX(180deg);
-        background:rgb(88, 16, 155);
+        /* transform: rotateX(180deg); */
+        /* background:rgb(88, 16, 155); */
     }
     75%{
         top:200px;
         left:30px;
-        transform: rotateX(270deg);
-        background:rgb(23, 54, 194);
+        /* transform: rotateX(270deg); */
+        /* background:rgb(23, 54, 194); */
     }
     100%{
-        top:0px;
+        top:10px;
         left:30px;
-        transform: rotateX(360deg);
-        background:rgb(181, 14, 133);
+        /* transform: rotateX(360deg); */
+        /* background:rgb(181, 14, 133); */
     }
 }
 

@@ -14,7 +14,7 @@
    
     <div id="main" onclick="Changebg()" ></div>
     <div id="chatbox">
-       <div id="main1">
+        <h5 id="demo9">Change width</h5>
         <input type="text"  id="width" placeholder="eni daxil edin...">
 
         <select name="" id="olchu">
@@ -23,8 +23,47 @@
             <option value="rem">rem</option>
             <option value="%">%</option>
         </select>
+        <h5 id="demo8">Change height</h5>
+        <input type="text"  id="height" placeholder="hundurluyu daxil edin...">
 
-        <button type="button" onclick="ChngeMsr()" id="demo1">OK</button>
+        <select name="" id="olchu2">
+            <option value="px">px</option>
+            <option value="em">em</option>
+            <option value="rem">rem</option>
+            <option value="%">%</option>
+        </select>
+
+        <h5 id="demo7">Change Background Color Via Text</h5>
+        <input type="text" id="colorInputText" >
+        <input type="color" id="colorInputColor" >
+        <input type="button" id="colorButton" value="Click to Change Color"onclick="changeColor()">
+ 
+
+
+
+
+
+        <!-- <input type="text"  id="Reng" placeholder="Rengi secin...">
+
+        <select id="my-select">
+
+            <option value="">-SELECT-</option>
+            <option value="lightblue">Blue</option>
+            <option value="green">Green</option>
+            <option value="pink">Pink</option>
+            <option value="red">Red</option>
+            <option value="yellow">Yellow</option>
+          </select> -->
+
+        <!-- <button type="button" onclick="ChangeColor()" id="demo6">Rengler</button>  -->
+
+        <button type="button" onclick="ChngeMsr()" id="demo1">
+            <i class="fa fa-check" aria-hidden="true"></i>
+        </button>
+        <button type="button" onclick="ChngeMsr2()" id="demo5">
+            <i class="fa fa-check" aria-hidden="true"></i>
+        </button>
+
         <button type="button" onclick="Changebg()" id="demo">Animasiya</button> 
         <button type="button" onclick="StAni()" id="demo3">StopAni</button> 
         
@@ -36,23 +75,14 @@
             <input type="checkbox" onclick="GeceGunduz()"/>
             <span></span>
         </label>
-    </div>
+   
     </div>
 
     <br><br>
     
-    
-    <div id="chat" onclick="activeChat()" ondblclick="deactivateChat()">
+     <div id="chat" onclick="activeChat()" ondblclick="deactivateChat()">
         <i class="fa fa-bars fa-2x" aria-hidden="true"></i>
     </div>
-    
-
-    
-    
-    
-
-
-
 
 </body>
 </html>
